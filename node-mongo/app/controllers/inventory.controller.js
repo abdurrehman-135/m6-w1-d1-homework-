@@ -28,7 +28,7 @@ exports.getInventory = async (req, res) => {
             });
         }
 
-        res.status(200).json({ inventory });
+        res.status(200).json(inventory);
     } catch (error) {
         res.status(500).json({
             message: 'Error retrieving inventory with id ' + req.params.id,
@@ -93,7 +93,7 @@ exports.updateInventory = async (req, res) => {
             });
         }
 
-        res.status(200).json({ inventory });
+        res.status(200).json(inventory);
     } catch (error) {
         res.status(500).json({
             message: "Error -> Can't update an inventory with id = " + inventoryId,

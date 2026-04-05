@@ -1,0 +1,25 @@
+body {
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.btn .nav-link {
+  padding: 0;
+}
+
+.btn .nav-link:hover {
+  text-decoration: none;
+}
+
+.float-right {
+  float: right;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
